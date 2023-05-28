@@ -20,3 +20,16 @@ function closeMenu() {
 };
 
 $('.small-menu-content .nav').click(closeMenu);
+
+
+// REFACTOR THIS BELOW
+function toggleMenuDropdown(e) {
+    if ($(this).parent().hasClass("active")) {
+        $(this).parent().removeClass('active');
+    } else {
+        $('.dropdown-btn').parent().removeClass('active');
+        $(this).parent().addClass('active');
+    }
+};
+
+$('.dropdown-btn').click(toggleMenuDropdown);
