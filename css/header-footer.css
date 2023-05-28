@@ -31,6 +31,14 @@
     border-color: var(--primary);
 }
 
+.header.active .dropdown-holder a {
+    color: var(--black);
+}
+
+.header.active .dropdown-holder.active .dropdown a {
+    color: var(--black);
+}
+
 .header .row {
     width: 100%;
     min-height: unset;
