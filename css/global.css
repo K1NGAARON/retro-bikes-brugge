@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
 
 :root {
     --primary: #f44336;
@@ -18,7 +18,7 @@ html {
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -130,7 +130,7 @@ img.bg-color {
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
@@ -315,8 +315,6 @@ img.bg-color {
         bottom: 100px;
     }
 }
-
-
 
 @media (max-width: 560px) {
     .section .row .col {

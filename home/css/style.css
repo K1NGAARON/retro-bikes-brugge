@@ -76,8 +76,14 @@
 .wrapper.reviews-wrapper .card {
     flex-direction: row;
     gap: 40px;
+    align-items: center;
     padding: 30px;
     background-color: var(--light-grey);
+}
+
+.wrapper.reviews-wrapper h3 {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
 }
 
 .wrapper.reviews-wrapper .card img {
@@ -88,14 +94,6 @@
 .wrapper.reviews-wrapper .card i {
     color: var(--primary);
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 560px) {
     .banner {
