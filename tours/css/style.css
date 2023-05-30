@@ -1,3 +1,7 @@
+.banner {
+    background-image: url('/tours/img/banner.jpg');
+}
+
 .wrapper.prices-wrapper {
     gap: 40px;
 }
