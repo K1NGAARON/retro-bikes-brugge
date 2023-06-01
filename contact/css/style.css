@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.banner .overlay {
+    opacity: 0.8;
+}
+
 .banner .row {
     color: var(--white);
     z-index: 10;

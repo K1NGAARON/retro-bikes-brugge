@@ -2,6 +2,10 @@
     background-image: url('/tours/img/banner.jpg');
 }
 
+.banner .overlay {
+    opacity: 0.8;
+}
+
 .wrapper.prices-wrapper {
     gap: 40px;
 }
