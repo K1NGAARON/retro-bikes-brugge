@@ -6,3 +6,23 @@
 .wrapper.booking-wrapper iframe {
     width: 500px;
 }
+
+.section.gallery .gallery-wrapper {
+    width: 100%;
+}
+
+.section.gallery .gallery-wrapper .item {
+    justify-content: flex-end;
+}
+
+.section.gallery .gallery-wrapper .item.large {
+    flex: 1 0 55%;
+}
+
+.section.gallery .gallery-wrapper .item.small {
+    flex: 0 1 30%;
+}
+
+.section.gallery .gallery-wrapper .item.large.top {
+    justify-content: flex-start;
+}
