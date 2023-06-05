@@ -1,0 +1,7 @@
+.wrapper.booking-wrapper {
+    width: 100%;
+}
+
+.wrapper.booking-wrapper iframe {
+    width: 500px;
+}
