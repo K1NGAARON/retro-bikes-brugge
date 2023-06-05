@@ -13,7 +13,20 @@
 
 .section.gallery .gallery-wrapper .item {
     justify-content: flex-end;
+
+    overflow: hidden;
 }
+
+.section.gallery .gallery-wrapper .item:hover img {
+    transform: scale(1.05);
+    transition: var(--transition);
+}
+
+.section.gallery .gallery-wrapper .item img {
+    height: 100%;
+    transition: var(--transition);
+}
+
 
 .section.gallery .gallery-wrapper .item.large {
     flex: 1 0 55%;
