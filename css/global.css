@@ -307,6 +307,10 @@ img.bg-color {
     display: none!important;
 }
 
+.hidden {
+    display: none;
+}
+
 @media all and (max-width: 540px) {
     .cookie-banner-wrapper {
         width: 100%;
