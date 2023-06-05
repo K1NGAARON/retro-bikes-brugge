@@ -1,5 +1,6 @@
 .wrapper.booking-wrapper {
     width: 100%;
+    justify-content: center;
 }
 
 .wrapper.booking-wrapper iframe {
