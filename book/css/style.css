@@ -3,8 +3,12 @@
     justify-content: center;
 }
 
+.wrapper.booking-wrapper #bookeo_position {
+    display: flex;
+}
+
 .wrapper.booking-wrapper iframe {
-    width: 500px;
+    width: 100%;
 }
 
 .section.gallery .gallery-wrapper {
@@ -38,4 +42,8 @@
 
 .section.gallery .gallery-wrapper .item.large.top {
     justify-content: flex-start;
+}
+
+.bold {
+    font-weight: 700;
 }
