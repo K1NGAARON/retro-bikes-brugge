@@ -6,6 +6,11 @@
     opacity: 0.6;
 }
 
+.banner.section h1,
+.banner.section p {
+    text-align: left;
+}
+
 .wrapper.prices-wrapper {
     gap: 40px;
 }
