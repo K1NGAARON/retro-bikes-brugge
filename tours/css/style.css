@@ -1,5 +1,5 @@
 .banner {
-    background-image: url('/tours/img/banner.jpg');
+    background-image: url('/book/img/image5.jpg');
 }
 
 .banner .overlay {
@@ -73,4 +73,12 @@
     background-color: var(--primary);
     padding: 5px 10px;
     border-radius: var(--borderRadius);
+}
+.picnic.section h3 {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.picnic.section ul {
+    padding-left: 30px;
 }
