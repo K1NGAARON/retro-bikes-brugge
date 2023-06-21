@@ -1,0 +1,18 @@
+.banner {
+    justify-content: center;
+    height: 80vh;
+    background-image: url('/mission/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .overlay {
+    opacity: 0.8;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
