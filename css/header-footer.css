@@ -277,7 +277,7 @@
 
 
     .header .topnav-content-sm svg {
-        fill: var(--primary);
+        fill: var(--white);
         width: 25px;
     }
 

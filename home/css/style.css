@@ -104,4 +104,8 @@
     .banner {
         height: fit-content;
     }
+
+    .wrapper.reviews-wrapper .card {
+        flex-direction: column;
+    }
 }

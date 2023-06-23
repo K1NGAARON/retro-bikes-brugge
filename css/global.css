@@ -358,6 +358,11 @@ img.bg-color {
 }
 
 @media (max-width: 560px) {
+    .banner.section {
+        height: fit-content;
+        min-height: 30vh;
+    }
+
     .section .row .col {
         flex: 1 0 100%;
     }
@@ -377,6 +382,15 @@ img.bg-color {
 
     h2 {
         font-size: 26px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .section .wrapper .card {
+        flex: 1 0 100%;
+        height: unset;
     }
 }
 
