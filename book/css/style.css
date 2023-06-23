@@ -1,3 +1,13 @@
+.banner {
+    justify-content: center;
+    height: 55vh;
+    background-image: url('/mission/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
 .wrapper.booking-wrapper {
     width: 100%;
     justify-content: center;
