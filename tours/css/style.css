@@ -21,6 +21,10 @@
     transition: 0.5s;
 }
 
+.section .row.whitespace {
+    margin-top: 120px;
+}
+
 .wrapper.prices-wrapper {
     gap: 40px;
 }
