@@ -1,89 +1,89 @@
 .banner {
-    background-image: url('/book/img/image5.jpg');
+  background-image: url("/book/img/image5.jpg");
 }
 
 .banner .overlay {
-    opacity: 0.6;
+  opacity: 0.5;
 }
 
 .banner.section h1,
 .banner.section p {
-    text-align: left;
+  text-align: left;
 }
 
 .banner a.white {
-    color: var(--white);
-    transition: 0.5s;
+  color: var(--white);
+  transition: 0.5s;
 }
 
 .banner a.white:hover {
-    text-decoration: underline;
-    transition: 0.5s;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 .section .row.whitespace {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .wrapper.prices-wrapper {
-    gap: 40px;
+  gap: 40px;
 }
 
 .wrapper.prices-wrapper .card {
-    background-color: var(--light-grey);
-    padding: 30px;
-    height: unset;
+  background-color: var(--light-grey);
+  padding: 30px;
+  height: unset;
 }
 
 .wrapper.prices-wrapper .card h3 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .wrapper.prices-wrapper .card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
 }
 
 .wrapper.prices-wrapper .card h4 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 40px 0 20px 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 40px 0 20px 0;
 }
 
 .wrapper.prices-wrapper .card ul:nth-of-type(2) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .wrapper.prices-wrapper .card .btn {
-    margin-top: auto;
+  margin-top: auto;
 }
 
 .wrapper.prices-wrapper .card.focus {
-    border: 2px solid var(--primary);
+  border: 2px solid var(--primary);
 }
 
 .wrapper.prices-wrapper .heading {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .wrapper.prices-wrapper .tag {
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--white);
-    background-color: var(--primary);
-    padding: 5px 10px;
-    border-radius: var(--borderRadius);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--primary);
+  padding: 5px 10px;
+  border-radius: var(--borderRadius);
 }
 .picnic.section h3 {
-    color: var(--primary);
-    font-size: 20px;
+  color: var(--primary);
+  font-size: 20px;
 }
 
 .picnic.section ul {
-    padding-left: 30px;
+  padding-left: 30px;
 }

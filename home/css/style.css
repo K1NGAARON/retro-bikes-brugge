@@ -1,111 +1,111 @@
 .banner {
-    justify-content: center;
-    height: 100vh;
-    background-image: url('/home/img/banner.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/home/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
 }
 
 .banner .row {
-    color: var(--white);
-    z-index: 10;
+  color: var(--white);
+  z-index: 10;
 }
 
 .banner h1,
 .banner p {
-    text-align: center;
+  text-align: center;
 }
 
 .banner .overlay {
-    opacity: 0.6;
+  opacity: 0.5;
 }
 
 .banner .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .wrapper.locations-wrapper {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .wrapper .card {
-    flex: 1 0;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
+  flex: 1 0;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
 .wrapper .card,
 .wrapper .card img {
-    border-radius: var(--borderRadius);
+  border-radius: var(--borderRadius);
 }
 
 .wrapper .card .card-content {
-    background: transparant;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+  background: transparant;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
 }
 
 .wrapper .card .card-content h3 {
-    color: var(--white);
-    opacity: 0;
-    transition: 0.5s;
+  color: var(--white);
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .wrapper .card .card-content:hover h3 {
-    opacity: 1;
-    transition: 0.5s;
+  opacity: 1;
+  transition: 0.5s;
 }
 
-.wrapper .card .card-content:hover{
-    background: rgba(70, 51, 92, 0.7);
+.wrapper .card .card-content:hover {
+  background: rgba(70, 51, 92, 0.7);
 }
 
 .wrapper.reviews-wrapper {
-    gap: 80px;
-    margin-top: 40px;
+  gap: 80px;
+  margin-top: 40px;
 }
 
 .wrapper.reviews-wrapper .card {
-    flex-direction: row;
-    gap: 40px;
-    align-items: center;
-    padding: 30px;
-    background-color: var(--light-grey);
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+  background-color: var(--light-grey);
 }
 
 .wrapper.reviews-wrapper h3 {
-    font-size: 20px;
-    margin: 20px 0 10px 0;
+  font-size: 20px;
+  margin: 20px 0 10px 0;
 }
 
 .wrapper.reviews-wrapper .card img {
-    max-width: 100px;
-    border-radius: 50%;
+  max-width: 100px;
+  border-radius: 50%;
 }
 
 .wrapper.reviews-wrapper .card i {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 @media (max-width: 560px) {
-    .banner {
-        height: fit-content;
-    }
+  .banner {
+    height: fit-content;
+  }
 
-    .wrapper.reviews-wrapper .card {
-        flex-direction: column;
-    }
+  .wrapper.reviews-wrapper .card {
+    flex-direction: column;
+  }
 }
