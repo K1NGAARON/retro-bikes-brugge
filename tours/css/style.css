@@ -28,6 +28,7 @@
 .wrapper.prices-wrapper .card {
     background-color: var(--light-grey);
     padding: 30px;
+    height: unset;
 }
 
 .wrapper.prices-wrapper .card h3 {

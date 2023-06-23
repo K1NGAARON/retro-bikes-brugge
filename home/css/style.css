@@ -22,12 +22,17 @@
     opacity: 0.6;
 }
 
+.banner .btn {
+    margin-top: 20px;
+}
+
 .wrapper.locations-wrapper {
     margin-top: 40px;
 }
 
 .wrapper .card {
     flex: 1 0;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     position: relative;
