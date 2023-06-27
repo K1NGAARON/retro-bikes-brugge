@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .wrapper.booking-wrapper {
     width: 100%;
     justify-content: center;
@@ -21,6 +25,26 @@
     width: 100%;
 }
 
-.bold {
-    font-weight: 700;
+.wrapper.booking-wrapper iframe body {
+    width: 100%;
+}
+
+.wrapper.booking-wrapper iframe body iframe {
+    width: 100%;
+}
+
+.wrapper.booking-wrapper #pagecustomer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper.booking-wrapper .categoryItems {
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.wrapper.booking-wrapper .categoryItems .item {
+    flex: 1 0 30%;
 }
