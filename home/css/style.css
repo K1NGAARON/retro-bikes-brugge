@@ -74,7 +74,7 @@
 }
 
 .wrapper.reviews-wrapper {
-  gap: 80px;
+  gap: 40px;
   margin-top: 40px;
 }
 
@@ -107,7 +107,20 @@
     height: fit-content;
   }
 
+  .section h2 {
+    text-align: center;
+  }
+
+  .wrapper.reviews-wrapper {
+    gap: 20px;
+  }
+
   .wrapper.reviews-wrapper .card {
     flex-direction: column;
+    flex: 1 0 100%;
+  }
+
+  .wrapper.reviews-wrapper h3 {
+    font-size: 14px;
   }
 }

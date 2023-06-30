@@ -369,6 +369,7 @@ img.bg-color {
 
     .section .row {
         padding: 0 30px;
+        margin: 40px auto;
     }
 
     p,
@@ -377,11 +378,11 @@ img.bg-color {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     h3 {

@@ -87,3 +87,13 @@
 .picnic.section ul {
   padding-left: 30px;
 }
+
+@media (max-width: 560px) {
+  .section .row.whitespace {
+    margin-top: 40px;
+  }
+
+  .wrapper.prices-wrapper {
+    gap: 20px;
+  }
+}
