@@ -8,6 +8,10 @@
     position: relative;
 }
 
+.margin-top-60 {
+    margin-top: 60px;
+}
+
 .bold {
     font-weight: 700;
 }
@@ -47,4 +51,10 @@
 
 .wrapper.booking-wrapper .categoryItems .item {
     flex: 1 0 30%;
+}
+
+@media (max-width: 560px) {
+    .margin-top-60 {
+        margin-top: 40px;
+    }
 }

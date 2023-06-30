@@ -80,7 +80,7 @@
 
 .wrapper.reviews-wrapper .card {
   height: unset;
-  flex: 1 0 40%;
+  flex: 1 0 20%;
   flex-direction: row;
   gap: 40px;
   align-items: center;
@@ -103,8 +103,9 @@
 }
 
 @media (max-width: 560px) {
-  .banner {
+  .banner.section {
     height: fit-content;
+    min-height: 60vh;
   }
 
   .section h2 {

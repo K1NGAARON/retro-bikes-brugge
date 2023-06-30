@@ -40,4 +40,8 @@
     .contact .container .container-content * {
         font-size: 14px;
     }
+
+    .section .row .contact-info {
+        display: none;
+    }
 }
