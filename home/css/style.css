@@ -83,7 +83,7 @@
   flex: 1 0 20%;
   flex-direction: row;
   gap: 40px;
-  align-items: center;
+  align-items: flex-start;
   padding: 30px;
   background-color: var(--light-grey);
 }
