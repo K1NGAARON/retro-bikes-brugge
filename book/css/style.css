@@ -42,16 +42,16 @@
     margin: 0 auto;
 }
 
-.wrapper.booking-wrapper .categoryItems {
+/* .wrapper.booking-wrapper .categoryItems {
     display: flex;
     gap: 20px;
     flex-flow: row wrap;
     width: 100%;
-}
+} */
 
-.wrapper.booking-wrapper .categoryItems .item {
+/* .wrapper.booking-wrapper .categoryItems .item {
     flex: 1 0 30%;
-}
+} */
 
 .categoryItems {
     display: flex;
