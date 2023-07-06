@@ -46,6 +46,32 @@
     display: none;
 }
 
+.booking-module {
+    justify-content: center;
+}
+
+.booking-module .card {
+    flex: 0 1 40%;
+    height: fit-content;
+    background-color: var(--white);
+}
+
+.booking-module .card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.booking-module .card .content h3 {
+    font-size: 26px;
+}
+
+.booking-module .card .content ul {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
 @media (max-width: 560px) {
     .margin-top-60 {
         margin-top: 40px;
