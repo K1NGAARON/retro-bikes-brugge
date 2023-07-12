@@ -26,6 +26,14 @@
   margin-top: 20px;
 }
 
+.reviews.section .sub {
+  font-size: 20px;
+}
+
+.reviews.section .sub a {
+  text-decoration: underline;
+}
+
 .wrapper.locations-wrapper {
   margin-top: 40px;
 }
