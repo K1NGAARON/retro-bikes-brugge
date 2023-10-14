@@ -84,6 +84,7 @@
   padding: 5px 10px;
   border-radius: var(--borderRadius);
 }
+
 .picnic.section h3 {
   color: var(--primary);
   font-size: 20px;

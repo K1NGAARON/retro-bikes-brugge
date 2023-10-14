@@ -46,6 +46,15 @@
     display: none;
 }
 
+.tag {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 5px 10px;
+    border-radius: var(--borderRadius);
+  }
+
 .booking-module {
     justify-content: center;
 }
