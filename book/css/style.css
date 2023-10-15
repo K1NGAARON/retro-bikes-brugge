@@ -93,4 +93,14 @@
     .img-large {
         display: none;
     }
+
+    .booking-module .card .content h3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .booking-module .card .content .tag {
+        width: fit-content;
+    }
 }
